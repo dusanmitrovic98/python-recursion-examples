@@ -3,6 +3,7 @@
 # input lists. The Nth element of the output list represents the sum of all elements of the Nth sublist of list A which in
 # previously multiplied by the Nth element in lists B. The use of loops and the sum function is prohibited.
 # Example: product([[1,2,3],[4,5,6],[7,8,9]], [1,2,3]) = [6, 30, 72]
+
 def product(A, B):
     if not A and not B:
         return []
