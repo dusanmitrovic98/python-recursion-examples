@@ -16,5 +16,4 @@ def product(A, B):
         prod = sum * B[0]
         return [prod] + product(A[1:], B[1:])
 
-
 print(product([[1, 2, 3], [4, 5, 6], [7, 8, 9]], [1, 2, 3]))

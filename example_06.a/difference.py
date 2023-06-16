@@ -13,5 +13,4 @@ def difference(listA, listB):
     else:
         return difference(listA[0], listB) + difference(listA[1:], listB)
 
-
 print(difference([1, 4, 6, "2", "6"], [4, 5, "2"]))

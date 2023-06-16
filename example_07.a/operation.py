@@ -14,5 +14,4 @@ def operation(A, op):
     else:
         return [operation(A[0], op)] + operation(A[1:], op)
 
-
 print(operation([(1, 4, 6), (2, 4), (4, 1)], lambda x, y: x + y))

@@ -18,5 +18,4 @@ def merge(listA, listB):
             temp_result = (elementB, elementA)
         return [temp_result] + merge(listA[1:], listB[1:])
 
-
 print(merge([1, 7, 2, 4, 5], [2, 5, 2]))
