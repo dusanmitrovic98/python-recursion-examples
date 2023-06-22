@@ -37,3 +37,4 @@ def join(map, intersection1, intersection2, visited=None):
 
 # Example usage:
 game_map = {
+    'A': ['B', 'C'],
