@@ -21,3 +21,4 @@ def join(map, intersection1, intersection2, visited=None):
     # Recursive case: Find the neighbors of the current intersection and explore them recursively
     neighbors = map[intersection1]
     min_guards = float('inf')  # Initialize with a large value
+
