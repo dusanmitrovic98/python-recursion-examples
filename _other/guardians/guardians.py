@@ -36,3 +36,4 @@ def join(map, intersection1, intersection2, visited=None):
     return min_guards + 1  # Add 1 for the current intersection guardian
 
 # Example usage:
+game_map = {
