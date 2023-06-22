@@ -34,3 +34,4 @@ def join(map, intersection1, intersection2, visited=None):
     min_guards = traverse_neighbors(0, len(neighbors) - 1, min_guards)
 
     return min_guards + 1  # Add 1 for the current intersection guardian
+
