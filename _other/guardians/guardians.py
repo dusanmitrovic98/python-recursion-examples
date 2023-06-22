@@ -15,3 +15,4 @@ def join(map, intersection1, intersection2, visited=None):
         visited = set()  # Initialize the set of visited intersections
 
     # Base case: If the players are already at the same intersection, no guardians need to be overcome
+    if intersection1 == intersection2:
