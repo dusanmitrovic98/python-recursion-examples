@@ -44,3 +44,4 @@ game_map = {
     'E': ['C', 'D']
 }
 
+start1 = 'A'
