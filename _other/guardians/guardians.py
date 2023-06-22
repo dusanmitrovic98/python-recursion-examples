@@ -22,3 +22,4 @@ def join(map, intersection1, intersection2, visited=None):
     neighbors = map[intersection1]
     min_guards = float('inf')  # Initialize with a large value
 
+    def traverse_neighbors(start, end, min_guards_param):
