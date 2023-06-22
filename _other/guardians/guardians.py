@@ -47,3 +47,4 @@ game_map = {
 start1 = 'A'
 start2 = 'D'
 min_guards_needed = join(game_map, start1, start2)
+print(f"The minimum number of guardians to overcome is: {min_guards_needed}")
