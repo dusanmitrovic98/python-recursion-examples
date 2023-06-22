@@ -24,3 +24,4 @@ def join(map, intersection1, intersection2, visited=None):
 
     def traverse_neighbors(start, end, min_guards_param):
         if start <= end:
+            if neighbors[start] not in visited:
