@@ -5,3 +5,4 @@
 # are located at different intersections and want to join forces to overcome the guardians 
 # more easily. Both players move at the same speed through the tunnels. Write a function named 
 # 'join(map, intersection1, intersection2)' in the Python programming language that uses a 
+# search algorithm to determine, based on the initial intersections of both players 
