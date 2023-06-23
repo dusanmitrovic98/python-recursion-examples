@@ -32,3 +32,4 @@ def join(map, intersection1, intersection2, visited=None):
             min_guards_param = traverse_neighbors(start + 1, end, min_guards_param)
         return min_guards_param
     min_guards = traverse_neighbors(0, len(neighbors) - 1, min_guards)
+
