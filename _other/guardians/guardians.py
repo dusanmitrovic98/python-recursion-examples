@@ -11,3 +11,4 @@
 # Loops are forbidden! Only recursion! 
 
 def join(map, intersection1, intersection2, visited=None):
+    if visited is None:
