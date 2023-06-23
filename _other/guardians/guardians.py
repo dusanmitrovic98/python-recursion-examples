@@ -10,3 +10,4 @@
 # in order to join at one of the intersections in the game defined by the graph map." 
 # Loops are forbidden! Only recursion! 
 
+def join(map, intersection1, intersection2, visited=None):
