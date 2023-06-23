@@ -28,3 +28,4 @@ def join(map, intersection1, intersection2, visited=None):
                 visited.add(neighbors[start])  # Add the current intersection to the visited set
                 num_guards = join(map, neighbors[start], intersection2, visited)  # Recursive call
                 visited.remove(neighbors[start])  # Remove the current intersection from the visited set
+                min_guards_param = min_guards_param if (min_guards_param < num_guards) else num_guards
