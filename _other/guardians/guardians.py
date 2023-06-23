@@ -17,3 +17,4 @@ def join(map, intersection1, intersection2, visited=None):
     # Base case: If the players are already at the same intersection, no guardians need to be overcome
     if intersection1 == intersection2:
         return 0
+
