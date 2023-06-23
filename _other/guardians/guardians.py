@@ -45,3 +45,4 @@ game_map = {
 }
 
 start1 = 'A'
+start2 = 'D'
