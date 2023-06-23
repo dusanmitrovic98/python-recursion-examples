@@ -12,3 +12,4 @@
 
 def join(map, intersection1, intersection2, visited=None):
     if visited is None:
+        visited = set()  # Initialize the set of visited intersections
