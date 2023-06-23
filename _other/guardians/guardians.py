@@ -26,3 +26,4 @@ def join(map, intersection1, intersection2, visited=None):
         if start <= end:
             if neighbors[start] not in visited:
                 visited.add(neighbors[start])  # Add the current intersection to the visited set
+                num_guards = join(map, neighbors[start], intersection2, visited)  # Recursive call
