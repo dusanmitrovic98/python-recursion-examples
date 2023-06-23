@@ -30,3 +30,4 @@ def join(map, intersection1, intersection2, visited=None):
                 visited.remove(neighbors[start])  # Remove the current intersection from the visited set
                 min_guards_param = min_guards_param if (min_guards_param < num_guards) else num_guards
             min_guards_param = traverse_neighbors(start + 1, end, min_guards_param)
+        return min_guards_param
