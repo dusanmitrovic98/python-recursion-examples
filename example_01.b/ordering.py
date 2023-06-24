@@ -11,3 +11,4 @@
 
 # Without recursion
 # def ordering(list1, list2): 
+#     if len(list1) > len(list2):
