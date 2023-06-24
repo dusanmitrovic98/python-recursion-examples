@@ -19,3 +19,4 @@
 #     combined_list = [(x, y) for x, y in zip(list1, list2)]
 
 #     return [(x, y, 'Yes' if y == x*2 else 'No') for x, y in combined_list]
+
