@@ -15,3 +15,4 @@
 #         list2 += [0] * (len(list1) - len(list2))
 #     else: 
 #         list1 += [0] * (len(list2) - len(list1))
+    
