@@ -6,3 +6,4 @@
 # numbers from both lists should be at the first and second positions, respectively.
 
 # The shorter input list is filled with the number 0 at the end until both lists are of the same length. The use of loops is prohibited.
+
