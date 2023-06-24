@@ -20,3 +20,4 @@
 
 #     return [(x, y, 'Yes' if y == x*2 else 'No') for x, y in combined_list]
 
+def ordering(list1, list2, result_list = []):
