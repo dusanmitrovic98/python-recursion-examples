@@ -25,3 +25,4 @@ def ordering(list1, list2, result_list = []):
         return result_list
     x = list1[0] if list1 else 0
     y = list2[0] if list2 else 0
+    result_list.append((x, y, 'Yes' if y == 2 * x else 'No'))
