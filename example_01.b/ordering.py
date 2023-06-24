@@ -10,3 +10,4 @@
 # Example: ordering([1, 7, 2, 4], [2, 5, 2]) = [(1, 2, 'Yes'), (7, 5, 'No'), (2, 2, 'No'), (4, 0, 'No')]
 
 # Without recursion
+# def ordering(list1, list2): 
