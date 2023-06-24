@@ -22,3 +22,4 @@
 
 def ordering(list1, list2, result_list = []):
     if not list1 and not list2:
+        return result_list
