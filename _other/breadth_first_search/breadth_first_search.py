@@ -7,3 +7,4 @@ def breadth_first_search(graph, start, end):
         return path
     queue_nodes = queue.Queue(len(graph))
     visited = set()
+    prev_nodes = dict()
