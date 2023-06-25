@@ -36,3 +36,4 @@ def breadth_first_search(graph, start, end):
 graph_simple = {
 'A' : ['B','C'],
 'B' : ['D', 'E'],
+'C' : ['F', 'G'],
