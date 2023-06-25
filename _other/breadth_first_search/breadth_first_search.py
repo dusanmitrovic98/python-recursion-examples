@@ -5,3 +5,4 @@ def breadth_first_search(graph, start, end):
         path = list()
         path.append(start)
         return path
+    queue_nodes = queue.Queue(len(graph))
