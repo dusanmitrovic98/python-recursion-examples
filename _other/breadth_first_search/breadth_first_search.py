@@ -20,3 +20,4 @@ def breadth_first_search(graph, start, end):
                 prev_nodes[dest] = node
                 if dest is end:
                     found_dest = True
+                    break
