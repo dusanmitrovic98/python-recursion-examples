@@ -15,3 +15,4 @@ def breadth_first_search(graph, start, end):
     while (not found_dest) and (not queue_nodes.empty()):
         node = queue_nodes.get()
         # process(node)
+        for dest in graph[node]:
