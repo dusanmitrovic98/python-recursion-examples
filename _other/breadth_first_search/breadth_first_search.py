@@ -22,3 +22,4 @@ def breadth_first_search(graph, start, end):
                     found_dest = True
                     break
                 visited.add(dest)
+                queue_nodes.put(dest)
