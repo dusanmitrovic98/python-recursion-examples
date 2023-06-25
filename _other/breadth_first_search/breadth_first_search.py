@@ -31,3 +31,4 @@ def breadth_first_search(graph, start, end):
             path.append(prev)
             prev = prev_nodes[prev]
         path.reverse()
+    return path
