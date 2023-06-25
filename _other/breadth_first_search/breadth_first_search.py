@@ -12,3 +12,4 @@ def breadth_first_search(graph, start, end):
     visited.add(start)
     queue_nodes.put(start)
     found_dest = False
+    while (not found_dest) and (not queue_nodes.empty()):
