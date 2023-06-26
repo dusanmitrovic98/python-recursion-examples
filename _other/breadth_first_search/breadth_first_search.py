@@ -24,3 +24,4 @@ def breadth_first_search(graph, start, end):
                 visited.add(dest)
                 queue_nodes.put(dest)
     path = list()
+    if found_dest:
