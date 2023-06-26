@@ -10,3 +10,4 @@ def breadth_first_search(graph, start, end):
     prev_nodes = dict()
     prev_nodes[start] = None
     visited.add(start)
+    queue_nodes.put(start)
