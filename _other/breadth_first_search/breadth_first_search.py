@@ -33,3 +33,4 @@ def breadth_first_search(graph, start, end):
         path.reverse()
     return path
 
+graph_simple = {
