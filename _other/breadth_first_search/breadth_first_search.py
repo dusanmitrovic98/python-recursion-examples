@@ -23,3 +23,4 @@ def breadth_first_search(graph, start, end):
                     break
                 visited.add(dest)
                 queue_nodes.put(dest)
+    path = list()
