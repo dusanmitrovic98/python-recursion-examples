@@ -17,3 +17,4 @@ def breadth_first_search(graph, start, end):
         # process(node)
         for dest in graph[node]:
             if dest not in visited:
+                prev_nodes[dest] = node
