@@ -47,3 +47,4 @@ graph_simple = {
 }
 
 path = breadth_first_search(graph_simple, 'A', 'J')
+print(path)
