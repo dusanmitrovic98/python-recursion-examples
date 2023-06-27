@@ -7,3 +7,4 @@ def depth_first_search(graph, start, end):
         return path
     stack_nodes = queue.LifoQueue(len(graph))
     visited = set()
+    prev_nodes = dict()
