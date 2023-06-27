@@ -14,3 +14,4 @@ def depth_first_search(graph, start, end):
     found_dest = False
     while (not found_dest) and (not stack_nodes.empty()):
         node = stack_nodes.get()
+        # process(node)
