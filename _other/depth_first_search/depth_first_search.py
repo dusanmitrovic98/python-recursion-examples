@@ -25,3 +25,4 @@ def depth_first_search(graph, start, end):
                 stack_nodes.put(dest)
     path = list()
     if found_dest:
+        path.append(end)
