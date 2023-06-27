@@ -34,3 +34,4 @@ def depth_first_search(graph, start, end):
     return path
 
 graph_simple = {
+'A' : ['B','C'],
