@@ -23,3 +23,4 @@ def depth_first_search(graph, start, end):
                     break
                 visited.add(dest)
                 stack_nodes.put(dest)
+    path = list()
