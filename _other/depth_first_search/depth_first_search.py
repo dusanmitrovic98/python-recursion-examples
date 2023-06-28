@@ -21,3 +21,4 @@ def depth_first_search(graph, start, end):
                 if dest is end:
                     found_dest = True
                     break
+                visited.add(dest)
