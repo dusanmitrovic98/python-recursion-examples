@@ -27,3 +27,4 @@ def depth_first_search(graph, start, end):
     if found_dest:
         path.append(end)
         prev = prev_nodes[end]
+        while prev is not None:
