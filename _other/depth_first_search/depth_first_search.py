@@ -46,3 +46,4 @@ graph_simple = {
 'J' : []
 }
 
+path = depth_first_search(graph_simple, 'A', 'J')
