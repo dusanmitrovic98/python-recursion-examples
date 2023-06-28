@@ -11,3 +11,4 @@ def depth_first_search(graph, start, end):
     prev_nodes[start] = None
     visited.add(start)
     stack_nodes.put(start)
+    found_dest = False
