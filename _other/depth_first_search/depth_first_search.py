@@ -22,3 +22,4 @@ def depth_first_search(graph, start, end):
                     found_dest = True
                     break
                 visited.add(dest)
+                stack_nodes.put(dest)
