@@ -30,3 +30,4 @@ def best_first_search(graph, start, end):
         while prev is not None:
             path.append(prev)
             prev = prev_nodes[prev]
+        path.reverse()
