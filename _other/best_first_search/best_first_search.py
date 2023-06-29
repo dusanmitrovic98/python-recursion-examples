@@ -17,3 +17,4 @@ def best_first_search(graph, start, end):
         # process(node[1])
         for dest in graph[node[1]][1]:
             if dest not in visited:
+                prev_nodes[dest] = node[1]
