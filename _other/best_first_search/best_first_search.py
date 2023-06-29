@@ -24,3 +24,4 @@ def best_first_search(graph, start, end):
                 visited.add(dest)
                 priority_queue.put((graph[dest][0], dest))
     path = list()
+    if found_dest:
