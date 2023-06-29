@@ -25,3 +25,4 @@ def best_first_search(graph, start, end):
                 priority_queue.put((graph[dest][0], dest))
     path = list()
     if found_dest:
+        path.append(end)
