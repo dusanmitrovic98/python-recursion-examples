@@ -16,3 +16,4 @@ def best_first_search(graph, start, end):
         node = priority_queue.get()
         # process(node[1])
         for dest in graph[node[1]][1]:
+            if dest not in visited:
