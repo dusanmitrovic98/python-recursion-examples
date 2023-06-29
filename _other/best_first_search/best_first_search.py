@@ -8,3 +8,4 @@ def best_first_search(graph, start, end):
     priority_queue = queue.PriorityQueue(len(graph))
     visited = set()
     prev_nodes = dict()
+    prev_nodes[start] = None
