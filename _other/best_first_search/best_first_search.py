@@ -34,3 +34,4 @@ def best_first_search(graph, start, end):
     return path
 
 graph_simple = {
+'A' : (9, ['B','C']),
