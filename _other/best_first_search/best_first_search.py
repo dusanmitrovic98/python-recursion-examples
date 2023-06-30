@@ -12,3 +12,4 @@ def best_first_search(graph, start, end):
     visited.add(start)
     priority_queue.put((graph[start][0], start))
     found_dest = False
+    while (not found_dest) and (not priority_queue.empty()):
