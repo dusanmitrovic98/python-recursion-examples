@@ -36,3 +36,4 @@ def best_first_search(graph, start, end):
 graph_simple = {
 'A' : (9, ['B','C']),
 'B' : (6, ['D', 'E']),
+'C' : (7, ['F', 'G']),
