@@ -46,3 +46,4 @@ graph_simple = {
 'J' : (0, [])
 }
 
+path = best_first_search(graph_simple, 'A', 'J')
