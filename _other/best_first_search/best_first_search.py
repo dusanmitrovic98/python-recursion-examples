@@ -15,3 +15,4 @@ def best_first_search(graph, start, end):
     while (not found_dest) and (not priority_queue.empty()):
         node = priority_queue.get()
         # process(node[1])
+        for dest in graph[node[1]][1]:
