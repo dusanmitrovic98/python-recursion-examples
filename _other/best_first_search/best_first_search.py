@@ -13,3 +13,4 @@ def best_first_search(graph, start, end):
     priority_queue.put((graph[start][0], start))
     found_dest = False
     while (not found_dest) and (not priority_queue.empty()):
+        node = priority_queue.get()
