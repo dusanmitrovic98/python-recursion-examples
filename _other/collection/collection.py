@@ -28,3 +28,4 @@ def binary_search(arr, target):
         elif arr[mid] < target:
             return binary_search(arr[mid + 1:], target)
         else:
+            return binary_search(arr[:mid], target)
