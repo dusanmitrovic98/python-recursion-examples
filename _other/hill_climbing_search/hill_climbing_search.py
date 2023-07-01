@@ -17,3 +17,4 @@ def hill_climbing_search(graph, start, end):
         # process(node)
         destinations = list()
         for dest in graph[node][1]:
+            element = (graph[dest][0], dest)
