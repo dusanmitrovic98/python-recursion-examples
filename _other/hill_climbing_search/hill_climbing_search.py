@@ -16,3 +16,4 @@ def hill_climbing_search(graph, start, end):
         node = stack_nodes.get()
         # process(node)
         destinations = list()
+        for dest in graph[node][1]:
