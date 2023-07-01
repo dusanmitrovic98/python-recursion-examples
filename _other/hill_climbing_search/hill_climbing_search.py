@@ -40,3 +40,4 @@ def hill_climbing_search(graph, start, end):
 graph_simple = { # remove example
 'A' : (9, ['B','C']),
 'B' : (6, ['D', 'E']),
+'C' : (7, ['F', 'G']),
