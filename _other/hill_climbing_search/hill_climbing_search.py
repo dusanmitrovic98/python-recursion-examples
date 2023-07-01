@@ -38,3 +38,4 @@ def hill_climbing_search(graph, start, end):
     return path
 
 graph_simple = { # remove example
+'A' : (9, ['B','C']),
