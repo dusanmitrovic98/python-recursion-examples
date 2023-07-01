@@ -39,3 +39,4 @@ def merge(left, right):
             i += 1
         else:
             result.append(right[j])
+            j += 1
