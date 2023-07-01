@@ -21,3 +21,4 @@ def hill_climbing_search(graph, start, end):
             destinations.append(element)
         for dest_heur in sorted(destinations, reverse=True):
             if dest_heur[1] not in visited:
+                prev_nodes[dest_heur[1]] = node
