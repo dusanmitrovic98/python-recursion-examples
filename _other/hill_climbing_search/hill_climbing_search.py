@@ -51,3 +51,4 @@ graph_simple = { # remove example
 }
 
 path = hill_climbing_search(graph_simple, 'A', 'J')
+print(path)
