@@ -49,3 +49,4 @@ graph_simple = { # remove example
 'I' : (3, ['J']),
 'J' : (0, [])
 }
+
