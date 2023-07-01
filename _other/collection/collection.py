@@ -18,3 +18,4 @@ def power(base, exponent):
     else:
         return base * power(base, exponent - 1)
 
+def binary_search(arr, target):
