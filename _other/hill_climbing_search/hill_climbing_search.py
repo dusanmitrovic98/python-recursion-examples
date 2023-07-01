@@ -24,3 +24,4 @@ def hill_climbing_search(graph, start, end):
                 prev_nodes[dest_heur[1]] = node
                 if dest_heur[1] is end:
                     found_dest = True
+                    break
