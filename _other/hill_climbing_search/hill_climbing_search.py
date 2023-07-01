@@ -29,3 +29,4 @@ def hill_climbing_search(graph, start, end):
                 stack_nodes.put(dest_heur[1])
     path = list()
     if found_dest:
+        path.append(end)
