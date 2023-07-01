@@ -38,3 +38,4 @@ def merge(left, right):
             result.append(left[i])
             i += 1
         else:
+            result.append(right[j])
