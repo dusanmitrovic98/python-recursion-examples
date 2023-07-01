@@ -25,3 +25,4 @@ def hill_climbing_search(graph, start, end):
                 if dest_heur[1] is end:
                     found_dest = True
                     break
+                visited.add(dest_heur[1])
