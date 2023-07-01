@@ -15,3 +15,4 @@ def hill_climbing_search(graph, start, end):
     while (not found_dest) and (not stack_nodes.empty()):
         node = stack_nodes.get()
         # process(node)
+        destinations = list()
