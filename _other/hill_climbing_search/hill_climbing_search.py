@@ -10,3 +10,4 @@ def hill_climbing_search(graph, start, end):
     prev_nodes = dict()
     prev_nodes[start] = None
     visited.add(start)
+    stack_nodes.put(start)
