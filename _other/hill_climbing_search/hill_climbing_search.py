@@ -37,3 +37,4 @@ def hill_climbing_search(graph, start, end):
         path.reverse()
     return path
 
+graph_simple = { # remove example
