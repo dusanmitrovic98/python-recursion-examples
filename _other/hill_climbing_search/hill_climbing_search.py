@@ -46,3 +46,4 @@ graph_simple = { # remove example
 'F' : (3, ['J']),
 'G' : (4, ['J']),
 'H' : (4, []),
+'I' : (3, ['J']),
