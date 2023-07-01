@@ -31,3 +31,4 @@ def binary_search(arr, target):
             return binary_search(arr[:mid], target)
 
 def merge(left, right):
+    result = []
