@@ -14,3 +14,4 @@ def fibonacci(n):
 
 def power(base, exponent):
     if exponent == 0:
+        return 1
