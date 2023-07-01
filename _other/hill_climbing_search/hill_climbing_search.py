@@ -26,3 +26,4 @@ def hill_climbing_search(graph, start, end):
                     found_dest = True
                     break
                 visited.add(dest_heur[1])
+                stack_nodes.put(dest_heur[1])
