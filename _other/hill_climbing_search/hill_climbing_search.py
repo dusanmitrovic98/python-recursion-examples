@@ -32,3 +32,4 @@ def hill_climbing_search(graph, start, end):
         path.append(end)
         prev = prev_nodes[end]
         while prev is not None:
+            path.append(prev)
