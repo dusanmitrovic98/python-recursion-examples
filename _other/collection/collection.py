@@ -23,3 +23,4 @@ def binary_search(arr, target):
         return False
     else:
         mid = len(arr) // 2
+        if arr[mid] == target:
