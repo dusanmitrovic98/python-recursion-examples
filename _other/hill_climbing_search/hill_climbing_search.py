@@ -30,3 +30,4 @@ def hill_climbing_search(graph, start, end):
     path = list()
     if found_dest:
         path.append(end)
+        prev = prev_nodes[end]
