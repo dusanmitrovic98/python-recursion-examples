@@ -20,3 +20,4 @@ def hill_climbing_search(graph, start, end):
             element = (graph[dest][0], dest)
             destinations.append(element)
         for dest_heur in sorted(destinations, reverse=True):
+            if dest_heur[1] not in visited:
