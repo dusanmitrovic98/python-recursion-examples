@@ -7,3 +7,4 @@ def factorial(n):
         return n * factorial(n - 1)
 
 def fibonacci(n):
+    if n <= 1:
