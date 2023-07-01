@@ -37,3 +37,4 @@ def merge(left, right):
         if left[i] < right[j]:
             result.append(left[i])
             i += 1
+        else:
