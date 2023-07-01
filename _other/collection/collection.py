@@ -21,3 +21,4 @@ def power(base, exponent):
 def binary_search(arr, target):
     if len(arr) == 0:
         return False
+    else:
